@@ -3,6 +3,7 @@ import { Container, Hero, Preview } from './styles'
 
 import previewImage from '../../assets/app-preview.png'
 import Image from 'next/image'
+import { ClaimUsernameForm } from './components/ClaimUsernameForm'
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
           Conecte seu calçendário e permita que seus clientes agendem no seu
           tempo livre.
         </Text>
+
+        <ClaimUsernameForm />
       </Hero>
 
       <Preview>
